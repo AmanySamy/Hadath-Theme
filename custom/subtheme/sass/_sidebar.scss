@@ -1,0 +1,26 @@
+.region-sidebar-first , .region-sidebar-second{
+    .block , #block-subtheme-tools{
+        background: #FFF;
+        box-shadow: 0px 0px 3px #CCC;
+        padding: 20px;
+        margin-bottom: 20px;
+        .block-title , h2{
+            font-family: "Lato";
+            font-size: 16px;
+            color: #343334;
+            font-weight: 600;
+            margin: 20px 0px 15px;
+            display: inline-block;
+            &:before{
+                content: "";
+                width: 10px;
+                height: 10px;
+                background: #EF5764;
+                position: absolute;
+                margin-top: 0;
+                display: inline-block;
+                margin: 4px -20px;
+            }
+        }
+    }
+}

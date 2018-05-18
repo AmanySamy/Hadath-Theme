@@ -1,0 +1,123 @@
+.region-content{
+    .event-info{
+        background: #FFF;
+        padding: 20px;
+    }
+    .page-header .quickedit-field{
+        background: #FFF;
+        font-size: 30px;
+        -webkit-transition: 0.4s all ease-in-out;
+        -moz-transition: 0.4s all ease-in-out;
+        transition: 0.4s all ease-in-out;
+        margin-top: 30px;
+        font-family: "Lato";
+        color: #343334;
+        font-weight: 600;
+        text-transform: capitalize;
+        text-decoration: none;
+        padding: 20px;
+        width: 100%;
+        display: block;
+        text-align: center;
+        box-shadow: 0px 0px 30px #CCC;
+        &:hover{
+            color:#EF5764;
+        }
+    }
+    .contextual-region{        
+        .field{
+            // border: 1px solid #CCC;
+            padding: 10px;
+            text-align: center;
+            margin: 20px 0;
+            overflow: hidden;
+            .fa{
+                position: relative;
+                font-size: 50px;
+                line-height: 50px;
+                width: 90px;
+                height: 90px;
+                border-radius: 45px;
+                padding: 20px;
+                background-color: transparent;
+                color: #a4acb5;
+            }
+            .field--label{
+                font-weight:bold;
+                color: #374146;
+                font-size: 18px;
+                &:after{
+                    content: '';
+                    display: block;
+                    margin: 10px auto 0 auto;
+                    width: 70px;
+                    height: 2px;
+                    background-color: #e1e1e1;
+                }
+            }
+            .field--item{
+                margin: 20px auto;
+                p{
+                    font-family: "Lato";
+                    font-size: 15px;
+                    color: #7b7b7b;
+                    font-weight: 400;
+                    // margin: 0;
+                    line-height: 2;
+                }
+                img{
+                    margin:auto;
+                }
+            }
+        }
+        .form-group{
+            margin: 20px 0;
+            .print__link{
+                font-family: "Lato";
+                font-size: 16px;
+                margin: 5px;
+                font-weight: 400;
+                background: #EF5764;
+                color: #FFF;
+                cursor: pointer;
+                text-transform: capitalize;
+                border-radius: 20px;
+                padding: 3px 10px;
+                -webkit-transition: 0.3s all ease-in-out;
+                -moz-transition: 0.3s all ease-in-out;
+                transition: 0.3s all ease-in-out;
+                display: inline-block;
+            }
+        }
+    }
+}
+// #block-subtheme-views-block-event-viewer-block-2{
+//     .form-group{
+//         .view{
+//             .view-content{
+//                 .views-row{
+//                     .views-field , div{
+//                         font-family: "Lato";
+//                         font-size: 14px;
+//                         margin: 5px;
+//                         font-weight: 400;
+//                         margin: 0 5px;
+//                         background: #EF5764;
+//                         text-transform: capitalize;
+//                         border-radius: 20px;
+//                         padding: 3px 10px;
+//                         -webkit-transition: 0.3s all ease-in-out;
+//                         -moz-transition: 0.3s all ease-in-out;
+//                         transition: 0.3s all ease-in-out;
+//                         display: inline-block;
+//                         .field-content a , span a{
+//                             color: #FFF;
+//                             text-decoration: none;
+//                             cursor: pointer;
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }

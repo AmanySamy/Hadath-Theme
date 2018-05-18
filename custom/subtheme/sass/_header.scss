@@ -1,0 +1,56 @@
+.main-header{
+    background: url("../img/header.jpg") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    color : #FFF;
+    position: relative;
+    width: 100%;
+    .overlay{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(0,0,0,0.6);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .region-header{
+            #block-siteinformation-2 .field{
+                .field--label{
+                    display: none;
+                }
+                .field--items .field--item{
+                    img{
+                        margin: 20px auto 30px;
+                        display: block;
+                        width: 250px;
+                    }
+                    li{
+                        text-decoration: none;
+                        list-style: none;
+                        font-size: 26px;
+                        font-weight: 400;
+                        text-align: right;
+                    }
+                    
+                }
+                .field--item{
+                    a{
+                        background-color: rgba(85, 86, 88, 0.74);
+                        padding: 10px 25px;
+                        border-radius: 20px;
+                        font-size: 20px;
+                        color: #fff;
+                        display: block;
+                        margin: 30px auto;
+                        text-align: center;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }    
+    }
+    
+ }
+ 

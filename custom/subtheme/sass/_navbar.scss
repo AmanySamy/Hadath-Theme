@@ -1,0 +1,30 @@
+#navbar{
+    padding: 15px 20px;
+    margin-bottom: 0px;
+    background-color: #FFF !important;
+    min-width: 90% !important;
+    border-radius: 0;
+}
+.region-navigation-collapsible{
+    nav .navbar-nav{
+        li a{
+            padding: 15px 12px;
+            color: #000;
+            -webkit-transition: 0.4s all ease-in-out;
+            -moz-transition: 0.4s all ease-in-out;
+            transition: 0.4s all ease-in-out;
+            &:hover{
+                color: #EF5764;
+            }
+            &:after{
+                content: "";
+                width: 26px;
+                height: 2px;
+                background: #EF5764;
+                display: block;
+                position: absolute;
+                margin-top: 3px;
+            }
+        }
+    }
+}
