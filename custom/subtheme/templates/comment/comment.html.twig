@@ -75,10 +75,9 @@
   #}
   <mark class="hidden" data-comment-timestamp="{{ new_indicator_timestamp }}"></mark>
   <h2 class="comment-block-title">Comments</h2>
-  <footer>
+  <footer class="clearfix">
     {{ user_picture }}
-    <p>{{ submitted }}</p>
-
+    <p class="comment-submitted-user">{{ submitted }}</p>
     {#
       Indicate the semantic relationship between parent and child comments for
       accessibility. The list is difficult to navigate in a screen reader
