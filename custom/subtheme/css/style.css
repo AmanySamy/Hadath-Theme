@@ -125,7 +125,7 @@
   padding: 20px;
 }
 
-.region-content .page-header span {
+.region-content .page-header .quickedit-field {
   background: #FFF;
   font-size: 30px;
   -webkit-transition: 0.4s all ease-in-out;
@@ -144,18 +144,18 @@
   box-shadow: 0px 0px 30px #CCC;
 }
 
-.region-content .page-header span:hover {
+.region-content .page-header .quickedit-field:hover {
   color: #EF5764;
 }
 
-.region-content .event-info .field {
+.region-content .contextual-region .field {
   padding: 10px;
   text-align: center;
   margin: 20px 0;
   overflow: hidden;
 }
 
-.region-content .event-info .field .fa {
+.region-content .contextual-region .field .fa {
   position: relative;
   font-size: 50px;
   line-height: 50px;
@@ -167,13 +167,13 @@
   color: #a4acb5;
 }
 
-.region-content .event-info .field .field--label {
+.region-content .contextual-region .field .field--label {
   font-weight: bold;
   color: #374146;
   font-size: 18px;
 }
 
-.region-content .event-info .field .field--label:after {
+.region-content .contextual-region .field .field--label:after {
   content: '';
   display: block;
   margin: 10px auto 0 auto;
@@ -182,11 +182,11 @@
   background-color: #e1e1e1;
 }
 
-.region-content .event-info .field .field--item {
+.region-content .contextual-region .field .field--item {
   margin: 20px auto;
 }
 
-.region-content .event-info .field .field--item p {
+.region-content .contextual-region .field .field--item p {
   font-family: "Lato";
   font-size: 15px;
   color: #7b7b7b;
@@ -194,15 +194,15 @@
   line-height: 2;
 }
 
-.region-content .event-info .field .field--item img {
+.region-content .contextual-region .field .field--item img {
   margin: auto;
 }
 
-.region-content .event-info .form-group {
+.region-content .contextual-region .form-group {
   margin: 20px 0;
 }
 
-.region-content .event-info .form-group .print__link {
+.region-content .contextual-region .form-group .print__link {
   font-family: "Lato";
   font-size: 16px;
   margin: 5px;
@@ -224,7 +224,6 @@
   padding: 40px 30px;
   position: relative;
   margin: 0 -20px;
-  border-bottom: 1px solid #CCC;
 }
 
 .js-comment h2 {
@@ -240,20 +239,6 @@
   left: 50%;
   margin-left: -60px;
   text-align: center;
-}
-
-.js-comment footer .user-img {
-  float: left;
-  margin-right: 20px;
-}
-
-.js-comment footer .user-img .field {
-  margin: 0;
-  padding: 0;
-}
-
-.js-comment footer .comment-submitted-user {
-  line-height: 100px;
 }
 
 .js-comment footer p span a {
@@ -302,22 +287,22 @@
   text-align: center;
 }
 
-#comment-form {
+.comment-form {
   padding: 40px 30px;
   position: relative;
 }
 
-#comment-form .comment-form-title {
+.comment-form .comment-form-title {
   font-size: 16px;
   background: #ef5764;
   color: #FFF;
-  width: 180px;
+  width: 120px;
   padding: 8px;
   border-radius: 20px;
   position: absolute;
   top: 0;
   margin-top: -17px;
   left: 50%;
-  margin-left: -90px;
+  margin-left: -60px;
   text-align: center;
 }
